@@ -1,0 +1,101 @@
+#header #tagline div, #header nav ul, #header #section {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+#header #section {
+  overflow: hidden;
+}
+
+#header {
+  background: #274f75;
+  vertical-align: middle;
+}
+#header #section {
+  height: 150px;
+  line-height: 150px;
+}
+#header #section div {
+  float: left;
+}
+#header #section a {
+  display: block;
+}
+#header #section img {
+  vertical-align: middle;
+}
+#header #section span {
+  margin-top: 50px;
+  color: white;
+  display: block;
+  float: right;
+  line-height: 150px;
+}
+#header #section p {
+  line-height: 18px;
+}
+#header #section p:first-child {
+  margin-bottom: 15px;
+}
+#header nav {
+  background: #84bf0e;
+  border-bottom: 1px solid #c31408;
+}
+#header nav ul {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+}
+#header nav li a {
+  display: block;
+  padding: 12px 25px;
+  text-decoration: none;
+  color: #274f75;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  transition: background 0.3s;
+}
+#header nav li a:hover {
+  background: white;
+}
+#header nav li a:hover::after {
+  background: #c31408;
+}
+#header nav li a::after {
+  content: "";
+  height: 6px;
+  width: 100%;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+}
+#header #tagline {
+  background: url("../images/bg-header2.jpg");
+  min-height: 450px;
+  background-position-x: center;
+  background-repeat: repeat;
+}
+#header #tagline div {
+  padding-top: 31px;
+}
+#header #tagline div h1 {
+  font-size: 60px;
+  font-family: Arial;
+  font-weight: 700;
+  color: #274f75;
+  max-width: 455px;
+  line-height: 76px;
+  margin-bottom: 30px;
+}
+#header #tagline div h1 p {
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  color: #274f75;
+  max-width: 340px;
+  line-height: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */

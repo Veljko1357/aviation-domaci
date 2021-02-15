@@ -1,0 +1,14 @@
+$primary_color: #274f75;
+$nav_bg: #84bf0e;
+$secondary_color:#c80808;
+$tercial_color: #3f3f3f;
+$fourth_color: #6a86a0;
+
+%container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+%clearFloat {
+    overflow: hidden;
+}
